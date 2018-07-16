@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { connect } from "react-reduct";
+import { connect } from "react-redux";
 import { completeToDo } from "../actions";
 
 class ToDoListItem extends Component {
